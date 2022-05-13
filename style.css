@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  padding: 1px 0;
+  border-bottom: 1px solid rgb(172, 172, 172);
+}
+
+.botao {
+  text-decoration: none;
+  background-color: #007bff;
+  display: inline-block;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+
+.center {
+  max-width: 2000px;
+  margin: 0 auto;
+  padding: 0 2%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  background: white;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: right;
+}
+
+.nav a {
+  color: #124265;
+  padding: 0 20px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.counteudo {
+  width: 100%;
+  margin: 60px 0;
+  text-align: center;
+}
+
+.counteudo h2 {
+  color: #16507b;
+  font-size: 40px;
+}
+
+.counteudo p {
+  color: gray;
+  font-size: 19px;
+  margin: 10px 0;
+}
+
+.valores {
+  display: flex;
+}
+
+.valoresitem {
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, #ffffff, #f7fcff, #e7fcff, #d2feff, #c1fffc);
+  width: 23%;
+  margin-right: 2%;
+  padding: 50px 20px;
+}
+
+.valoresitem i {
+  color: #124265;
+  font-size: 23px;
+}
+
+.valoresitem p {
+  color: gray;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+section.sobre {
+
+  padding: 60px 0;
+}
+
+.titulo {
+  width: 100%;
+  text-align: center;
+}
+
+.titulo h2 {
+  color: #124265;
+}
+
+.titulo p {
+  font-size: 16px;
+  color: gray;
+  margin: 10px 0;
+}
+
+.outroconteudo {
+  display: flex;
+}
+
+.outroconteudo p {
+  margin: 0 20px;
+}
+
+.missao {
+  margin: 0 20px;
+  display: flex;
+  color: white;
+  background-color: #124265;
+  margin-top: 30px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.pai {
+  margin-top: 50px;
+  display: flex;
+}
+
+.pai img {
+  margin: 0 20px;
+}
+
+footer {
+  background-image: linear-gradient(to bottom, #52658f, #4a5a80, #434f72, #3b4464, #333a56);
+}
