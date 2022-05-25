@@ -12,15 +12,6 @@ header {
   border-bottom: 1px solid rgb(172, 172, 172);
 }
 
-.botao {
-  text-decoration: none;
-  background-color: #007bff;
-  display: inline-block;
-  color: white;
-  padding: 6px 12px;
-  border-radius: 8px;
-}
-
 .center {
   max-width: 2000px;
   margin: 0 auto;
@@ -93,14 +84,14 @@ header {
   line-height: 30px;
 }
 
-section.sobre {
-
+section#sobre {
   padding: 60px 0;
 }
 
 .titulo {
   width: 100%;
   text-align: center;
+  padding: 1em;
 }
 
 .titulo h2 {
@@ -138,6 +129,11 @@ section.sobre {
 
 .pai img {
   margin: 0 20px;
+}
+
+#contato{
+  display: flex;
+  align-items: center;
 }
 
 footer {
