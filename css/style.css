@@ -67,19 +67,20 @@ header {
 
 .valoresitem {
   border-radius: 10px;
-  background-image: linear-gradient(to bottom, #ffffff, #f7fcff, #e7fcff, #d2feff, #c1fffc);
+  background-color: #124265;
   width: 23%;
   margin-right: 2%;
   padding: 50px 20px;
+  box-shadow: 5px 5px 10px #0000009d;
 }
 
 .valoresitem i {
-  color: #124265;
+  color: whitesmoke;
   font-size: 23px;
 }
 
 .valoresitem p {
-  color: gray;
+  color: white;
   font-size: 14px;
   line-height: 30px;
 }
@@ -120,6 +121,7 @@ section#sobre {
   margin-top: 30px;
   font-size: 20px;
   text-align: center;
+  box-shadow: 5px 5px 10px #00000096;
 }
 
 .pai {
@@ -129,6 +131,8 @@ section#sobre {
 
 .pai img {
   margin: 0 20px;
+  border-radius: 1000px;
+  box-shadow: 5px 5px 10px #000000c9;
 }
 
 #contato{
@@ -138,4 +142,6 @@ section#sobre {
 
 footer {
   background-image: linear-gradient(to bottom, #52658f, #4a5a80, #434f72, #3b4464, #333a56);
+  display: flex;
+
 }
