@@ -37,11 +37,15 @@ header {
 }
 
 .nav a {
-  color: #124265;
+  color: #103652;
   padding: 0 20px;
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
+}
+
+a:hover {
+  color: #33aaff;
 }
 
 .counteudo {
