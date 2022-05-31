@@ -145,7 +145,18 @@ section#sobre {
 }
 
 footer {
-  background-image: linear-gradient(to bottom, #52658f, #4a5a80, #434f72, #3b4464, #333a56);
+  background-image: linear-gradient(to right, #d8d8d8, #b7b6cb, #9296be, #6878b2, #2d5da6);
   display: flex;
+}
 
+footer p{
+  float: left;
+  font-size: 18px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+footer p a{
+ color:#0400fc;
+ font-size: 18px;
+ text-decoration: none;
 }
